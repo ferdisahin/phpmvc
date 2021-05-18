@@ -6,4 +6,4 @@ _Anlayışınız için teşekkürler._
 
 [x] - Route Yapısı
 
-[] - Tema Motoru
+[x] - Tema Motoru
