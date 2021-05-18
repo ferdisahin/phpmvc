@@ -25,7 +25,7 @@ class Home extends Controller {
             if($this->validator->validate()){
                 print_r($this->validator->data());
             }else{
-                print_r($this->validator->errors());
+                //print_r($this->validator->errors());
             }
         }
         return $this->view('home');
