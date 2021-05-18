@@ -7,12 +7,11 @@
  */
 
 namespace Core;
-
-
 use Buki\Router\Router;
 
 class Bootstrap{
     public $router;
+    public $view;
 
     public function __construct(){
          $this->router = new Router([
@@ -25,9 +24,11 @@ class Bootstrap{
                  'middlewares'   => 'App\Middlewares'
              ]
          ]);
+
+         $this->view = new View();
     }
 
-    public function __destruct(){
+    public function run(){
         $this->router->run();
     }
 }

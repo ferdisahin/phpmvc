@@ -9,8 +9,13 @@
 namespace App\Controllers;
 
 
-class Home{
+use Core\Controller;
+
+class Home extends Controller {
     public function index(){
-        return 'Anasayfa';
+
+        $data = ['Merhaba', 'Dünya', 'Nerelisin'];
+
+        return $this->view('home', compact('data'));
     }
 }
