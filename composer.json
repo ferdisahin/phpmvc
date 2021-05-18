@@ -1,0 +1,19 @@
+{
+    "name": "ferdisahin/phpmvc",
+    "description": "MVC Yapısı",
+    "authors": [
+        {
+            "name": "ferdisahin",
+            "email": "ferdisahin@hotmail.fr"
+        }
+    ],
+    "require": {
+        "izniburak/router": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "./app",
+            "Core\\": "./core"
+        }
+    }
+}
