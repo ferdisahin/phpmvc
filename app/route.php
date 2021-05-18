@@ -6,7 +6,7 @@
  *
  */
 
-$app->router->get('/', 'Home@index', ['before' => CheckAuth::class]);
+$app->router->controller('/', Home::class, ['before' => CheckAuth::class]);
 
 $app->router->get('/hakkimda', function (){
     return 'hakkımda';

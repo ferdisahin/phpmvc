@@ -7,3 +7,5 @@ _Anlayışınız için teşekkürler._
 [x] - Route Yapısı
 
 [x] - Tema Motoru
+
+[x] - Validator Yapısı Eklendi
